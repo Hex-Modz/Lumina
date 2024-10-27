@@ -1,0 +1,73 @@
+# Bot Configuration for Lumina
+Settings:
+  Name: "Lumina"  # The name of the bot
+  Color: "#ff0000"  # Hex color code for bot representation
+  Token: ""  # Bot token for authentication
+  BotID: ""  # Unique identifier for the bot
+  Owners: ""  # ID of the bot owner
+  Version: "11.0.0"
+
+Auth:
+  copright: "© 2024 Shadow Modz"  # Copyright notice
+
+Status:
+  Enabled: true  # Indicates if the bot is enabled
+  ServerCount: true  # Indicates if server count tracking is enabled
+  Type: "Watching"  # Status type displayed (e.g., Watching, Listening)
+  Mode: "Online"  # Status mode for the bot (options: online, idle, dnd)
+  Timer: 1000  # Timer interval in milliseconds
+  Value1: ""  # Status message value 1 (currently empty)
+  Value2: ""  # Status message value 2 (currently empty)
+  Value3: ""  # Status message value 3 (currently empty)c
+  Value4: ""  # Status message value 4 (currently empty)
+
+AIModules:
+  Enable-Ollama: false  # Toggle to enable Ollama support (true/false)
+  Enable-OpenAI: true  # Toggle to enable OpenAI support (true/false)
+
+OpenAI:
+  OpenAIAPI: ""  # API key for OpenAI (if applicable)
+  OpenAIModel: "gpt-4o-mini"  # OpenAI model used for interactions
+
+Ollama:
+  OllamaModel: "llama2"  # Model used for AI interactions
+  OllamaURL: ""  # URL for your Ollama Backend
+  timeout: 240000  # Timeout (in milliseconds) for AI requests
+  requestWindowTime: 60000  # Time window (in milliseconds) for limiting AI requests
+  maxRequestsPerWindow: 50  # Maximum AI requests allowed per time window
+  concurrent: 80  # Maximum number of concurrent AI requests
+
+Blacklisted:
+  - ''  # List of user IDs that are blacklisted
+
+Webhooks:
+  Enabled: true  # Indicates if webhooks are enabled
+  Url: ""
+  Success: "#ff001e"  # Color code for successful webhook notifications
+  Error: "#3ca832"  # Color code for error webhook notifications
+
+URLS:
+  Website: ""  # Official website link
+  TOS: ""  # Terms of Service link
+  Privacy: ""  # Privacy Policy link
+  Inv: ""  # Invite link for the bot
+  Support: ""  # Support server link
+
+Icons:
+  Icon: ""  # URL for bot icon
+  Thumbnail: ""  # URL for bot thumbnail
+  Banner: ""  # URL for bot banner
+
+Labels:
+  Website: "Website!"  # Label for website link
+  TOS: "TOS!"  # Label for Terms of Service link
+  Privacy: "Privacy Policy!"  # Label for Privacy Policy link
+  Inv: "Invite!"  # Label for invite link
+  Support: "Support Server!"  # Label for support server link
+
+Emojis:
+  Website: "🌐"  # Emoji for website link
+  TOS: "🚨"  # Emoji for Terms of Service link
+  Privacy: "🚨"  # Emoji for Privacy Policy link
+  Inv: "🤖"  # Emoji for invite link
+  Support: "🎫"  # Emoji for support server link
